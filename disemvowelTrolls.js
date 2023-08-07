@@ -6,5 +6,3 @@ function disemvowel(str) {
     })
     return str
   }
-
-  console.log(disemvowel("Hello World"))
