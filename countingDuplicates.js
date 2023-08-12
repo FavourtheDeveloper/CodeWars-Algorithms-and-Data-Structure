@@ -11,9 +11,8 @@ function duplicateCount(text){
         textObj[element] = 1;
       }
     });
-
     // console.log(textArr);
-    // console.log(Object.entries(textObj))
+    console.log(Object.entries(textObj))
    const eachArr = Object.entries(textObj).filter(each => {
         return each[1] > 1;
     })
