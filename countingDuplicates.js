@@ -1,6 +1,5 @@
 function duplicateCount(text){
     const textObj = {
-        
     }
     let textArr = text.toLowerCase().split("")
     textArr.forEach(element => {
@@ -11,7 +10,6 @@ function duplicateCount(text){
         textObj[element] = 1;
       }
     });
-    // console.log(textArr);
     console.log(Object.entries(textObj))
    const eachArr = Object.entries(textObj).filter(each => {
         return each[1] > 1;
